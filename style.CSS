@@ -1,0 +1,420 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+img{
+  max-width: 100%;
+}
+
+body {
+ background-color: ; 
+}
+
+/* STYLE NAV BAR */
+nav{
+  padding: 10px;
+  text-align: center;
+}
+
+#nav-bar{ /* ul */
+  list-style-type:none;
+  overflow:hidden;
+  padding:5px;
+  background-color:#edf1f2;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  left: 0;
+  width: 100%; /* Full width */
+}
+
+.nav-button{ /* li */
+  display: inline;
+  padding:10px; 
+  text-decoration: none;
+  color: #e2389a;
+  font-family: "roboto condensed", sans-serif;
+  font-size: 18px;
+}
+
+.nav-button a{ /* li a */
+  text-decoration: none;
+  color: #e2389a;
+  font-family: "roboto condensed", sans-serif;
+  font-size: 18px;
+}
+
+.nav-button a:hover{ /* li a:hover*/
+  background-color: #cbccea;
+}
+
+/* header */
+
+header{
+   cursor: auto;
+}
+
+#headerpicture{
+  max-width:100%
+}
+
+/* give her a chance? */
+
+#important-question-section{
+  height:800px;
+}
+
+#chance { /*button*/
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-image: linear-gradient(70deg, #edf1f2, #cbccea);
+  border: 1px white;
+  font-size: 70px;
+  font-family: "roboto condensed", serif;
+  color:#e11f57;
+  border-radius: 30px;
+  cursor:pointer;
+}
+
+#chance:hover{
+  background-image: linear-gradient(70deg, #edf1f2, #e2389a);
+}
+
+#thanks-chance{ /*the text that changes*/
+  text-align:center;
+  font-family: roboto condensed, sans-serif;
+  font-size: 40px;
+  text-decoration: none;
+  line-height: 1.5em;
+  color: #e2389a;
+  
+}
+
+/* end yes button */
+
+
+
+/* her past */
+
+#past-section{
+  background-image: linear-gradient(rgba(255,255,255,1),rgba(255,255,255,.85)), url(assets/futurefemale.png)
+}
+
+.dialogue{
+  text-align:center;
+  font-family: roboto condensed, sans-serif;
+  font-size: 35px;
+  text-decoration: none;
+  line-height: 2em;
+  color: #e2389a;
+  margin-right: 20%;
+  margin-left:20%;
+  margin-top:30px;
+  margin-bottom:15px;
+}
+
+.dialogue:hover{
+  color: #e11f57;
+}
+
+.instructions{
+  text-align:center;
+  font-family: roboto condensed, sans-serif;
+  margin-right:20%;
+  margin-left:20%;
+  font-size: 30px;
+  line-height: 2em
+}
+
+.section-title{
+  font-size: 70px;
+  font-family: dancing script, serif;
+  color: #e11f57;
+  text-align:center;
+  margin-right: 20%;
+  margin-left:20%;
+  margin-top:40px;
+  margin-bottom:20px;
+}
+
+#timeline{
+  padding-top:3em;
+  padding-bottom:3em;
+  max-width: 1200px;
+}
+
+.information{
+  font-family: merriweather, serif;
+  font-size: 16px;
+  text-align:center;
+  line-height: 2em;
+}
+
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+#video1{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+}
+
+#text1{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+}
+
+/*pastsection*/
+#past-section{
+  height:900px;
+}
+
+/*what is feminism*/
+
+#whatisfeminism{
+  width: 600px;
+}
+
+#articleimage{
+  width: 600px;
+}
+
+.flex-item{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 1%;
+}
+
+  #articlebutton{
+    display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+    color-background: #838fa0;
+  }
+
+  #articlebutton a:hover{
+    box-shadow: box-shadow 10px 10px 1px #838fa0;
+  }
+
+  #articleimage{
+    width=1000px;
+  }
+
+/* liberal feminism*/
+
+#liberal-feminism{
+  display:box;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/*feminism is for everybody book*/
+
+#bookrecommendation{
+  background-image: linear-gradient(rgba(255,255,255,.95),rgba(255,255,255,0.95)), url(assets/feministsymbol.png);
+}
+
+
+#bellhooksbook a:hover{
+  box-shadow: 5px 10px 3px #616161;
+}
+
+#bookpicture{
+  width: 370px;
+}
+
+  #book-text{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 1%;
+    margin-left: 20%;
+      margin-right: 20%;
+    font-family: merriweather, serif;
+  font-size: 16px;
+    line-height:2em;
+}
+
+
+/* take action */
+
+.takeactiontext{
+  line-height: 1.5em;
+  font-family: roboto condensed;
+  text-align: center;
+  font-size: 30px;
+}
+
+#endtakeaction{
+  margin-bottom: 50px;
+}
+
+/* script generator*/
+
+.script-instructions{
+  text-align:center;
+  font-size:1.5em;
+  font-family: roboto condensed;
+  color:#e2389a;
+  margin-top: 35px;
+}
+
+.scriptQues {
+  background: #cbccea;
+  border-radius: 3px;
+
+  margin-top: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
+
+  font-family: "Roboto condensed", sans-serif;
+  font-size: 1.3em;
+  color: #e2389a;
+}
+.scriptItem{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 15px;
+  margin-right: 10px;
+
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+input {
+  border-style: none;
+  border-radius: 5px;
+  width: 60%;
+}
+
+#scriptReturned {
+  margin-top: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
+
+  color: #e11f57;
+  font-size: 1.3em;
+}
+
+#scriptBtn {
+  background: #e11f57;
+  border-style: none;
+  border-radius: 3px;
+
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  margin-left: 35%;
+  margin-right: 35%;
+
+  color: #ffffff;
+  font-size: 1em;
+}
+
+#scriptBtn:hover{
+  background: #e2389a;
+  cursor: pointer;
+}
+
+.margin-left-right{
+  text-align:center;
+  font-size:1.5em;
+  font-family: roboto condensed;
+  color:#000000;
+margin-right: 20%;
+  margin-left:20%
+}
+
+#take-action-button{
+  background-color: #cbccea;
+  color: white;
+  text-align: center;
+  font-size:40px;
+  font-family: roboto condensed;
+}
+
+.sources-text{
+  font-size: 11px;
+  font-faimly: roboto, sans-serif;
+  text-align: left;
+}
+
+/* make responsive*/
+
+@media screen and (max-width:850px){
+  .flex-container{
+    flex-wrap: wrap;
+  }
+    .flex-item2{
+      max-width:50%;
+    }
+  #thanks-chance{
+    font-size: 30px;
+    line-height: 1.2em;
+  }
+  .section-title{
+    font-size: 30px;
+    line-height:1.2em;
+    margin-left:0 ;
+    margin-right:0;
+  }
+  .dialogue{
+    font-size: 30px;
+    line-height: 1.2em;
+    margin-left:0 ;
+    margin-right:0;
+  }
+  .instructions{
+    font-size:25px;
+    line-height:1.4em;
+    margin-left:0;
+    margin-right:0;
+  }
+  .information{
+    font-size: 20px;
+    line-height: 1.5em;
+    margin-left:0;
+    margin-right:0;
+  }
+    #videoembed{
+      width="320"; 
+      height="180";
+    }
+  #timeline{
+    max-width:360px;
+  }
+  #margin-left-right{
+    margin-left:0;
+    margin-right:0;
+  }
+  }
+
+/*about*/
+#me-pic{
+  width:700px;
+}
+
+
+
+/* STYLE TEXT */
+
+/* STYLE IMAGES */
+
+/* STYLE BUTTONS */
+
+/* ADD MORE! */
